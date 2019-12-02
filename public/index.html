@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pizarra</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script>
+    
+  </script>
+
+</head>
+<body>
+
+    <canvas id="drawing"></canvas>
+        
+    <div class="navbar">
+      <input class="botones" type="button" value="Aumentar" onclick="aumenta()">
+      <input class="botones" type="button" value="Disminuir" onclick="decrementa()">
+      <input class="botones" type="button" value="Pincel" onclick="pincel()">
+      <input class="botones" type="button" value="Borrador" onclick="borrador()">
+      <input class="botones" type="button" value="Limpiar lienzo" onclick="limpiar()">
+    </div>
+
+    <div class="colores">
+        <input id="verde" type="button" value="Verde" name="verde" onclick="cambiarColor(this)">
+        <input id="azul" type="button" value="Azul" name="azul" onclick="cambiarColor(this)">
+        <input id="rojo" type="button" value="Rojo" name="rojo" onclick="cambiarColor(this)">
+        <input id="naranja" type="button" value="Naranja" name="naranja" onclick="cambiarColor(this)">
+        <input id="negro" type="button" value="Negro" name="negro" onclick="cambiarColor(this)">
+    </div>
+    
+  <!-- SCRIPTS -->
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/index.js"></script>
+</body>
+</html>

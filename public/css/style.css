@@ -1,0 +1,76 @@
+*{
+  box-sizing: border-box;
+}
+
+html,body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#drawing {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.colores{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #cccccc;
+  border-radius: 5px;
+}
+
+.botones {
+  display: inline-block;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 5px;
+  background-color: #1db5e4;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.colores input {
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 5px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;  
+  cursor: pointer;
+}
+
+#verde {
+  background-color: green;
+}
+
+#azul {
+  background-color: blue;
+}
+
+#rojo {
+  background-color: red;
+}
+
+#naranja {
+  background-color: orange;
+}
+
+#negro {
+  background-color: black;
+}
